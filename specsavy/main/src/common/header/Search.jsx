@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import logo from "../../components/assets/images/logo.svg";
+import logo from "../../components/assets/images/logo.png";
 import { Link } from "react-router-dom";
 
 const Search = ({ CartItem }) => {
@@ -37,7 +37,7 @@ const Search = ({ CartItem }) => {
             <div className="cart">
               <Link to="/cart">
                 <i className="fa fa-shopping-bag icon-circle"></i>
-                <span>{CartItem.length === 0 ? "" : CartItem.length}</span>
+                <span></span>
               </Link>
             </div>
           </div>

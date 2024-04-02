@@ -8,9 +8,7 @@ function App() {
     <>
       <Router>
         <Header/>
-        <Switch>
-          
-        </Switch>
+
       </Router>
     </>
   )
