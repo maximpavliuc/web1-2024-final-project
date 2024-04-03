@@ -28,12 +28,6 @@ const Navbar = () => {
                 <Link to='/user'>user account</Link>
               </li>
               <li>
-                <Link to='/vendor'>vendor account</Link>
-              </li>
-              <li>
-                <Link to='/track'>track my order</Link>
-              </li>
-              <li>
                 <Link to='/contact'>contact</Link>
               </li>
             </ul>

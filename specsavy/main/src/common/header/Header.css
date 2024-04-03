@@ -18,7 +18,7 @@
     padding: 20px 0;
   }
   .search .logo img {
-    width: auto;
+    width: 200px;
     height: auto;
   }
   .search .width {
@@ -51,10 +51,10 @@
     border-left: 2px solid rgba(0, 0, 0, 0.1);
     padding: 10px;
   }
-  .cart {
+  .compare {
     position: relative;
   }
-  .search .cart span {
+  .search .compare span {
     position: absolute;
     top: -10px;
     right: 0px;

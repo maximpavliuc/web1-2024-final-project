@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import logo from "../../components/assets/images/logo.png";
 import { Link } from "react-router-dom";
 
-const Search = ({ CartItem }) => {
+const Search = ({ CompareItem }) => {
   useEffect(() => {
     const handleScroll = () => {
       const search = document.querySelector(".search");
@@ -34,8 +34,8 @@ const Search = ({ CartItem }) => {
 
           <div className="icon f_flex width">
             <i className="fa fa-user icon-circle"></i>
-            <div className="cart">
-              <Link to="/cart">
+            <div className="compare">
+              <Link to="/compare">
                 <i className="fa fa-shopping-bag icon-circle"></i>
                 <span></span>
               </Link>
