@@ -7,8 +7,10 @@ function App() {
   return (
     <>
       <Router>
-        <Header/>
-
+        <Header />
+          <Route path='/' exact>
+            <Pages/>
+          </Route>
       </Router>
     </>
   )
